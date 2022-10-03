@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-around;
     background-color: lightgrey;
-    height: 58em;
+    height: 56em;
     width: 3.5em;
 }
 
@@ -95,12 +95,37 @@ tr:nth-child(even){
     background-color: rgba(225, 232, 231, 0.536);
 }
 
-#td_button{
+#Td_Button{
     color: blue;
     background-color: transparent;
     border: 1px solid black;
     height: 1.5em;
 }
 
+#Body_Bottom_Container{
+    background-color: rgb(42, 35, 162);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#Footer_Img{
+    display: flex;
+    align-items: center;
+}
+
+#Footer_Img > img{
+    width: 80px;
+    height: 80px;
+    margin: 0.5em;
+}
+
+#Player_Controllers{
+    width: 53em;
+    height: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
