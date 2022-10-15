@@ -1,0 +1,198 @@
+body {
+    background-color: #f5f7fb;
+    margin: 1px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+header {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  
+.container {
+    width: 75%;
+    height: 50%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 5%;
+  }
+  
+.leftContainer {
+    width: 45%;
+    display: inline-block;
+    margin-right: 5%;
+  }
+  
+.rightContainer {
+    width: 45%;
+    display: inline-block;
+    margin-left: 5%;
+    position: absolute;
+  }
+  
+img {
+    width: 100%;
+  }
+  
+footer {
+    height: 30px;
+    width: 120em;
+    background-color: #f3b48d;
+    text-align: center;
+    position: sticky;
+  }
+  
+footer > p {
+    padding-top: 0.5%;
+  }
+  
+.formContainer {
+    background-color: #697691;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  
+.formContainer > h3{
+   position: relative; 
+   text-align: center;
+}  
+
+.nameTitle > select {
+    height: 2em;
+    border: 0px;
+    width: 14em;
+    margin-top: 10px;
+    padding-left: 5px;
+  }
+  
+.firstName {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.firstName > input {
+    border: 0px;
+    height: 2em;
+    width: 14em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+  
+.lastName {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.lastName > input {
+    border: 0px;
+    height: 2em;
+    width: 14em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+.nameTitle {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.email{
+    display: inline-block;
+    margin: 10px;
+}  
+
+.email > input {
+    border: 0px;
+    height: 2em;
+    width: 45.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+
+.phoneNo {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.phoneNo > input {
+    border: 0px;
+    height: 2em;
+    width: 21.6em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+  
+.password {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.confPassword {
+    display: inline-block;
+  }
+  
+.country {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.country > select {
+    border: 0px;
+    height: 2em;
+    width: 21.6em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+  
+.submitButton {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.password > input {
+    border: 0px;
+    height: 2em;
+    width: 21.6em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+
+ .confPassword {
+    display: inline-block;
+    margin: 10px;
+  }
+
+.confPassword > input {
+    border: 0px;
+    height: 2em;
+    width: 21.6em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+  }
+  
+input {
+    border: 0px;
+    height: 2em;
+  }
+  
+ .submitButton > button {
+    border: 0px;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    background-color: #5da4ff;
+  }
+
+button:hover {
+    background-color: #64f8ff;
+  }
+  
+ 
