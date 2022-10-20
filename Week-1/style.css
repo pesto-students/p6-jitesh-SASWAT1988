@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+
+#Main_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+
+#Body_Top_Container{
+    display: flex;
+}
+
+#Body_Sidebar_Container{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    height: 54em;
+    width: 3.5em;
+}
+
+#Sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#Body_Container{
+    width: 100%;
+}
+
+#Body_Header_Container{
+    display: flex;
+    height: 14em;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+
+#Body_Header_Left{
+    margin: 2em;
+}
+
+#Logo_Img{
+    width: 150px;
+    height: 150px;
+}
+
+#Body_Header_Right{
+    margin: 2em 0 2.5em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Body_Header_Right_Top h3{
+    margin-bottom: 0.5em;
+}
+
+#Body_Header_Right_Top > p{
+    font-size: 13px;
+}
+
+#Body_Header_Right_Bottom{
+    font-size: 10px;
+}
+
+#Body_Header_Right_Bottom > i{
+    margin-left: 1em;
+}
+
+#Body_Table_Container{
+    margin: 0.5em;
+}
+
+#Body_Table{
+    width: 100%;
+    padding-left: 0.5em;
+    border-collapse: collapse;
+}
+td{
+    border: none;
+}
+
+tr{
+    height: 2.5em;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgba(225, 232, 231, 0.536);
+}
+
+#Td_Button{
+    color: blue;
+    background-color: transparent;
+    border: 1px solid black;
+    height: 1.5em;
+}
+
+#Body_Bottom_Container{
+    background-color: rgb(42, 35, 162);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Footer_Img{
+    display: flex;
+    align-items: center;
+}
+
+#Footer_Img > img{
+    width: 80px;
+    height: 80px;
+    margin: 0.5em;
+}
+
+#Player_Controllers{
+    width: 53em;
+    height: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
